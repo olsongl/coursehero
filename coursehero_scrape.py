@@ -11,6 +11,10 @@ Scrape:
 
 Profile is persisted at ~/.coursehero-profile so login is reused.
 Output: <out_dir>/coursehero_<date>.json and coursehero_<date>.xlsx.
+
+python3 coursehero_scrape.py "https://www.coursehero.com/sitemap/schools/105-Ohio-State-University/courses/1652614-BIOCHEM4511/, https://www.coursehero.com/sitemap/schools/105-Ohio-State-University/courses/10996388-BIOCHEM451/, https://www.coursehero.com/sitemap/schools/105-Ohio-State-University/courses/1570875-MOLGEN4500/"
+
+python3 coursehero_scrape.py "https://www.coursehero.com/sitemap/schools/27-University-of-California-Santa-Barbara/courses/242693-CHEM1CL/, https://www.coursehero.com/sitemap/schools/27-University-of-California-Santa-Barbara/courses/242694-CHEM1C/, https://www.coursehero.com/sitemap/schools/27-University-of-California-Santa-Barbara/courses/906488-CHEM-1C1C/, https://www.coursehero.com/sitemap/schools/27-University-of-California-Santa-Barbara/courses/4576471-CHEMISTRY1C/"
 """
 
 import argparse
